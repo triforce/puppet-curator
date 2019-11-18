@@ -104,7 +104,7 @@ define curator::action (
   $delete_after           = undef,
   $delete_aliases         = undef,
   $disable_action         = 'False',
-  # $extra_settings = undef, #We don't support $extra_settings yet
+  $extra_settings         = undef,
   $ignore_empty_list      = 'False',
   $ignore_unavailable     = undef,
   $include_aliases        = undef,
